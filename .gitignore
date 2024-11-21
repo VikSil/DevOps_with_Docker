@@ -1,4 +1,9 @@
 /example*
 hello.sh
 Dockerfile
-volume/*
+volumes/*
+*.html
+scaling-exercise/*
+node-dev-env/*
+docker-compose.yml
+*.conf
