@@ -1,0 +1,45 @@
+
+services:
+  frontend:
+    build: 
+      context: ./example-frontend
+      dockerfile: Dockerfile_frontend
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8080/api/ping/
+
+  backend:
+    build: 
+      context: ./example-backend
+      dockerfile: Dockerfile_backend
+    environment:
+      - REQUEST_ORIGIN=http://localhost
+      - REDIS_HOST=redis
+      - POSTGRES_HOST=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=testtest
+      - POSTGRES_DATABASE=postgres
+
+  redis:
+    image: redis
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:13.2-alpine
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=testtest
+    volumes:
+      - ./volumes/database:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+
+  web:
+    image: nginx
+    volumes:
+    - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+    - "80:80"
+
+  
