@@ -1,6 +1,6 @@
 # DevOps with Docker - MOOC by the University of Helsinki
 
-This repo was created while taking **"Devops with Docker"** course, that is provided [online](https://devopswithdocker.com/) by the University of Helsinki.
+This repo was created while taking **"Devops with Docker"** course, that is provided [online](https://devopswithdocker.com/) by the University of Helsinki. 
 This is 2004 version of the course. The repo contains code and image solutions to the exercises presented in the course.
 
 ## Part 1: DevOps with Docker
@@ -23,8 +23,16 @@ This is 2004 version of the course. The repo contains code and image solutions t
 
 ## Part 2: DevOps with Docker: docker-compose
 
-
-
+* [Exercise 2.1 - Volumes in Docker Compose](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.1)
+* [Exercise 2.2 - Web services in Docker Compose](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.2)
+* [Exercise 2.3 - Frontend and Backend in Docker Compose](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.3)
+* [Exercise 2.4 - Adding Redis to Backend](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.4)
+* [Exercise 2.5 - Network load balancing and scaling](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.5.png)
+* [Exercise 2.6 - Adding Postgres to Backend](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.6)
+* [Exercise 2.7 - Bind Mount](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.7)
+* [Exercise 2.8 - Adding Nginx reverse proxy](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.8)
+* [Exercise 2.9 - Routing](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.9)
+* [Exercise 2.10 - Securing ports](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.10)
 
 ## Part 3: DevOps with Docker: security and optimization
 
@@ -34,21 +42,6 @@ This is 2004 version of the course. The repo contains code and image solutions t
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Disclaimer
 
-For educational and entertainment purposes only. Plagiarism is strongly advised against.
+For educational and entertainment purposes only. Plagiarism is strongly advised against. If in doubt, consult [policy on plagiarism of the University of Helsinki](https://studies.helsinki.fi/instructions/article/what-cheating-and-plagiarism).
