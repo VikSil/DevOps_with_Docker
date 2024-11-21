@@ -1,0 +1,9 @@
+services:
+  yt-dlp-ubuntu:
+    image: viksil/compose-example-1
+    build: 
+      context: Dockerfiles
+      dockerfile: ../Dockerfiles.Dockerfile3
+    volumes:
+      - ./volume:/mydir
+    container_name: yt-dlp
