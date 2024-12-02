@@ -1,0 +1,18 @@
+FROM golang:1.23.3-alpine3.20
+
+EXPOSE 8080
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+ENV PORT=8080
+ENV REQUEST_ORIGIN=http://localhost:8080
+
+RUN addgroup -S backend && adduser -S backend -G backend
+RUN chown -R backend:backend .
+USER backend
+
+RUN go build
+
+CMD ["./server"]
