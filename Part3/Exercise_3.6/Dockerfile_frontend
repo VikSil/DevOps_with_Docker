@@ -1,0 +1,18 @@
+FROM node:16
+
+WORKDIR /usr/src/app
+
+EXPOSE 5000
+
+COPY . . 
+
+RUN npm install && npm install -g serve && npm run build && \
+    curl -sf https://gobinaries.com/tj/node-prune | /bin/sh && \
+    node-prune && rm .gitignore .eslintcache --force && \
+    rm -rf src --force && rm -rf public --force && \
+    rm -rf /var/cache/apk/* && \
+    useradd -m frontend && chown frontend .
+    
+USER frontend
+
+CMD ["serve", "-s", "-l", "5000", "build"]
