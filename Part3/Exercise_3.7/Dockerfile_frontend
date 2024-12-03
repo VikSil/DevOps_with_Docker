@@ -1,0 +1,19 @@
+FROM node:16.20.2-alpine3.17
+
+WORKDIR /usr/src/app
+
+EXPOSE 5000
+
+COPY . . 
+
+RUN apk add --no-cache curl ca-certificates && \
+    npm install && npm install -g serve && npm run build && \
+    curl -sf https://gobinaries.com/tj/node-prune | /bin/sh && \
+    node-prune && rm .gitignore .eslintcache && \
+    rm -rf src && rm -rf public && \
+    rm -rf /var/cache/apk/* && \
+    addgroup -S frontend && adduser -S frontend -G frontend && chown -R frontend:frontend .
+    
+USER frontend
+
+CMD ["serve", "-s", "-l", "5000", "build"]
