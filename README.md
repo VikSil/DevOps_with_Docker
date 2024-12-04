@@ -36,11 +36,21 @@ This is 2004 version of the course. The repo contains code and image solutions t
 
 ## Part 3: DevOps with Docker: security and optimization
 
+* [Exercise 3.1 -Your Pipeline](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.1.txt)
+* [Exercise 3.3 - Sripting Magic](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.3)
+* [Exercise 3.4 - Building Images from Inside of a Container](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.4)
+* [Exercise 3.5 - Non-root User](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.5)
+* [Exercise 3.6 - Optimising RUN Command](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.6)
+* [Exercise 3.7 - Optimising FROM Image](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.7)
+* [Exercise 3.8 - Multi-stage Front-end](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.8)
+* [Exercise 3.9 - Multi-stage Back-end](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.9)
+* [Exercise 3.10 - Optimisation for Project of Choice](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.10)
+* [Exercise 3.11 - Kubernetes](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.11)
 
 
+## Skipped Exercises
 
-
-
+In accordance with the [course guidelines](https://devopswithdocker.com/getting-started#grading), one non-mandatory exercise in each part can be skipped. Hence Exercise 1.16, Exercise 2.11 and Exercise 3.2 have been skipped and are not present in this repo.  
 
 ## Disclaimer
 
