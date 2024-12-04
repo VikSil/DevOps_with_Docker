@@ -27,7 +27,7 @@ This is 2004 version of the course. The repo contains code and image solutions t
 * [Exercise 2.2 - Web services in Docker Compose](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.2)
 * [Exercise 2.3 - Frontend and Backend in Docker Compose](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.3)
 * [Exercise 2.4 - Adding Redis to Backend](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.4)
-* [Exercise 2.5 - Network load balancing and scaling](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.5.png)
+* [Exercise 2.5 - Network load balancing and scaling](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.5)
 * [Exercise 2.6 - Adding Postgres to Backend](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.6)
 * [Exercise 2.7 - Bind Mount](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.7)
 * [Exercise 2.8 - Adding Nginx reverse proxy](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.8)
