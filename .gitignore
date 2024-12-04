@@ -1,6 +1,5 @@
 /example*
 hello.sh
-Dockerfile
 volumes/*
 *.html
 scaling-exercise/*
