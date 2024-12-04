@@ -5,7 +5,7 @@ This is 2004 version of the course. The repo contains code and image solutions t
 
 ## Part 1: DevOps with Docker
 
-* [Exercise 1.1 - Getting started](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.1.png)
+* [Exercise 1.1 - Getting started](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.1)
 * [Exercise 1.2 - Cleanup](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.2.png)
 * [Exercise 1.3 - Secret message](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.3.png)
 * [Exercise 1.4 - Missing dependencies](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.4.png)
