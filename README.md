@@ -6,20 +6,20 @@ This is 2004 version of the course. The repo contains code and image solutions t
 ## Part 1: DevOps with Docker
 
 * [Exercise 1.1 - Getting started](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.1)
-* [Exercise 1.2 - Cleanup](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.2.png)
-* [Exercise 1.3 - Secret message](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.3.png)
-* [Exercise 1.4 - Missing dependencies](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.4.png)
-* [Exercise 1.5 - Sizes of images](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.5.png)
-* [Exercise 1.6 - Hello Docker Hub](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.6.png)
+* [Exercise 1.2 - Cleanup](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.2)
+* [Exercise 1.3 - Secret message](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.3)
+* [Exercise 1.4 - Missing dependencies](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.4)
+* [Exercise 1.5 - Sizes of images](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.5)
+* [Exercise 1.6 - Hello Docker Hub](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.6)
 * [Exercise 1.7 - Image for script](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.7)
 * [Exercise 1.8 - Two line Dockerfile](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.8)
 * [Exercise 1.9 - Volumes](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.9)
-* [Exercise 1.10 - Ports open](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.10.png)
+* [Exercise 1.10 - Ports open](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.10)
 * [Exercise 1.11 - Spring](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.11)
 * [Exercise 1.12 - Hello, frontend!](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.12)
 * [Exercise 1.13 - Hello, backend!](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.13)
 * [Exercise 1.14 - Environment](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.14)
-* [Exercise 1.15 - Homework](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.15.png)
+* [Exercise 1.15 - Homework](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.15)
 
 ## Part 2: DevOps with Docker: docker-compose
 
@@ -52,6 +52,7 @@ This is 2004 version of the course. The repo contains code and image solutions t
 
 In accordance with the [course guidelines](https://devopswithdocker.com/getting-started#grading), one non-mandatory exercise in each part can be skipped. Hence Exercise 1.16, Exercise 2.11 and Exercise 3.2 have been skipped and are not present in this repo.  
 
-## Disclaimer
+## Disclaimers
 
-For educational and entertainment purposes only. Plagiarism is strongly advised against. If in doubt, consult [policy on plagiarism of the University of Helsinki](https://studies.helsinki.fi/instructions/article/what-cheating-and-plagiarism).
+* Exercise text in README files in this repo has been sourced from the course website. This was done for retention of the orginal exercise text pertaining to solutions in this repo, shall the course change in the future. No copyright infringement intended.
+* For educational and entertainment purposes only. Plagiarism is strongly advised against. If in doubt, consult [policy on plagiarism of the University of Helsinki](https://studies.helsinki.fi/instructions/article/what-cheating-and-plagiarism).
