@@ -37,7 +37,7 @@ This is 2004 version of the course. The repo contains code and image solutions t
 ## Part 3: DevOps with Docker: security and optimization
 
 * [Exercise 3.1 -Your Pipeline](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.1)
-* [Exercise 3.3 - Sripting Magic](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.3)
+* [Exercise 3.3 - Scripting Magic](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.3)
 * [Exercise 3.4 - Building Images from Inside of a Container](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.4)
 * [Exercise 3.5 - Non-root User](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.5)
 * [Exercise 3.6 - Optimising RUN Command](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.6)
@@ -50,7 +50,7 @@ This is 2004 version of the course. The repo contains code and image solutions t
 
 ## Skipped Exercises
 
-In accordance with the [course guidelines](https://devopswithdocker.com/getting-started#grading), one non-mandatory exercise in each part can be skipped. Hence Exercise 1.16, Exercise 2.11 and Exercise 3.2 have been skipped and are not present in this repo.  
+In accordance with the [course guidelines](https://devopswithdocker.com/getting-started#grading), one non-mandatory exercise in each part can be skipped. Hence [Exercise 1.16](https://devopswithdocker.com/part-1/section-6#exercises-115-116), [Exercise 2.11](https://devopswithdocker.com/part-2/section-4#exercise-211) and [Exercise 3.2](https://devopswithdocker.com/part-3/section-2#exercises-31-34) have been skipped and are not present in this repo.  
 
 ## Disclaimers
 

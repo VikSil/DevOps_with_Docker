@@ -1,6 +1,6 @@
 ## [Assignment](https://devopswithdocker.com/part-2/section-2#exercise-24)
 
-> **EXERCISE 2.4:**
+> **EXERCISE 2.4**
 > 
 > In this exercise you should expand the configuration done in Exercise 2.3 and set up the example backend to use the key-value database [Redis](https://redis.io/).
 > 
