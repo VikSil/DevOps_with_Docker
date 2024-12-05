@@ -36,7 +36,7 @@ This is 2004 version of the course. The repo contains code and image solutions t
 
 ## Part 3: DevOps with Docker: security and optimization
 
-* [Exercise 3.1 -Your Pipeline](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.1.txt)
+* [Exercise 3.1 -Your Pipeline](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.1)
 * [Exercise 3.3 - Sripting Magic](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.3)
 * [Exercise 3.4 - Building Images from Inside of a Container](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.4)
 * [Exercise 3.5 - Non-root User](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part3/Exercise_3.5)
