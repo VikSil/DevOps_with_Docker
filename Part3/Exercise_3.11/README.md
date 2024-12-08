@@ -18,4 +18,4 @@
 
 ## Solution
 
-![Solution to Exercise 3.11](https://raw.githubusercontent.com/VikSil/DevOps_with_Docker/refs/heads/trunk/Part3/Exercise_3.11/Kubernetes_FX_Pipeline_v_0.1.png)
+![Solution to Exercise 3.11](https://raw.githubusercontent.com/VikSil/DevOps_with_Docker/refs/heads/trunk/Part3/Exercise_3.11/Kubernetes_FX_Pipeline_v_0.1.1.png)
