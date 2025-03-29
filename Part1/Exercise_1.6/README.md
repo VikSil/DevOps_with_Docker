@@ -1,4 +1,4 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-3#exercises-15---16)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/in-depth-dive-into-images#a7ca8fd9-a7ac-4fe7-bfa1-e53898bab9f8)
 
 > **EXERCISE 1.6: HELLO DOCKER HUB**
 > 
@@ -10,7 +10,7 @@
 > 
 > Read the Dockerfile and/or docs to learn what input will get the application to answer a "secret message".
 > 
-> Submit the secret message and command(s) given to get it as your answer.
+> What is the secret message?
 
 ## Solution
 

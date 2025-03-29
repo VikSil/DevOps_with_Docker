@@ -1,14 +1,12 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-5#exercise-110)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/interacting-with-the-container-via-volumes-and-ports#deecce60-502d-4479-bf66-7035aadf93ea)
 
 > **EXERCISE 1.10: PORTS OPEN**
 > 
-> In this exercise, we won't create a new Dockerfile.
+> The image `devopsdockeruh/simple-web-service` will start a web service in port `8080` when given the argument "server". In [Exercise 1.8](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/in-depth-dive-into-images#fa341527-2be4-46e5-8fb7-4b530eba67d5) you already did an image that can be used to run the web service without any argument.
 > 
-> The image `devopsdockeruh/simple-web-service` will start a web service in port `8080` when given the argument "server". In [Exercise 1.8](https://github.com/VikSil/DevOps_with_Docker/tree/trunk/Part1/Exercise_1.8) you already did an image that can be used to run the web service without any argument.
+> Use now the -p flag to access the contents with your browser in http://localhost:8080. The output to your browser should be something like: `{ message: "You connected to the following path: ...}`
 > 
-> Use now the -p flag to access the contents with your browser. The output to your browser should be something like: `{ message: "You connected to the following path: ...`
-> 
-> Submit your used commands for this exercise.
+> Give command(s) used to start the service.
 
 ## Solution
 

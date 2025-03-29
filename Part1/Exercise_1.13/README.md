@@ -1,4 +1,4 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-6#exercises-111-114)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/utilizing-tools-from-the-registry#d4c1e0bc-4796-4f0b-9eaa-c58084afb94f)
 
 > **EXERCISE 1.13: HELLO, BACKEND!**
 > 
@@ -8,14 +8,14 @@
 > 
 > When you start the container and navigate to http://localhost:8080/ping you should get a "pong" as a response.
 > 
-> Submit the Dockerfile and the command used.
-> 
 > *Do not alter the code of the project*
 > 
 > TIPS:
 > 
 > - you might need [this](https://docs.docker.com/reference/dockerfile/#env)
 > - If you have M1/M2 Mac, you might need to build the image with an extra option `docker build --platform linux/amd64 -t imagename .`
+>
+> Submit the Dockerfile and the commands used as the answer.
 
 ## Solution
 

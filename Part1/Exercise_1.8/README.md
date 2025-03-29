@@ -1,4 +1,4 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-3#exercises-17---18)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/in-depth-dive-into-images#fa341527-2be4-46e5-8fb7-4b530eba67d5)
 
 > **EXERCISE 1.8: TWO LINE DOCKERFILE**
 > 
@@ -12,7 +12,7 @@
 > 
 > In this exercise create a Dockerfile and use FROM and CMD to create a brand new image that automatically runs `server`.
 > 
-> The Docker documentation CMD says a bit indirectly that if a image has ENTRYPOINT defined, CMD is used to define it the default arguments.
+> The Docker documentation [CMD](https://docs.docker.com/engine/reference/builder/#cmd) says a bit indirectly that if a image has ENTRYPOINT defined, CMD is used to define it the default arguments.
 > 
 > Tag the new image as "web-server"
 > 
@@ -34,6 +34,8 @@
 >  - We don't have any method of accessing the web service yet. As such confirming that the console output is the same will suffice.
 > 
 >  - The exercise title may be a useful hint here.
+>
+> Answer with the Dockerfile and the command you used to run the container.
 
 ## Solution
 

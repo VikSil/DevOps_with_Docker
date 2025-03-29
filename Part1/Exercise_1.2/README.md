@@ -1,12 +1,14 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-1#exercises-11-12)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/definitions-and-basic-concepts#69973c71-ef3e-444b-8944-5f427ef0cffb)
 
 > **EXERCISE 1.2: CLEANUP**
-> 
-> We have containers and an image that are no longer in use and are taking up space. Running `docker ps -a` and `docker image ls` will confirm this.
+>
+> Stop all your containers. 
+>
+> now you have containers and some images that are no longer in use and are taking up space. Running `docker ps -a` and `docker image ls` will confirm this.
 > 
 > Clean the Docker daemon by removing all images and containers.
 > 
-> Submit the output for `docker ps -a` and `docker image ls`
+> As an answer give the output for `docker ps -a` and `docker image ls`
 
 ## Solution
 

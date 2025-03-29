@@ -1,4 +1,4 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-1#exercises-11-12)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/definitions-and-basic-concepts#e61047a7-6306-4222-80c3-3b89c7b995ce)
 
 > **EXERCISE 1.1: GETTING STARTED**
 > 
@@ -8,7 +8,7 @@
 > 
 > Stop two of the containers and leave one container running.
 > 
-> Submit the output for `docker ps -a` which shows 2 stopped containers and one running.
+> As an answer write the output for `docker ps -a` which shows 2 stopped containers and one running.
 
 ## Solution
 

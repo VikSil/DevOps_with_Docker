@@ -1,4 +1,4 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-6#exercises-111-114)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/utilizing-tools-from-the-registry#f9b9fd5f-6eb3-41cc-b30a-d2375530f404)
 
 > **EXERCISE 1.11: SPRING**
 > 
@@ -10,7 +10,7 @@
 > 
 > You've completed the exercise when you see a 'Success' message in your browser.
 > 
-> Submit the Dockerfile you used to run the container.
+> Submit the Dockerfile and the command you used to run the container.
 
 ## Solution
 

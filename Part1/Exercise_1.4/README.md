@@ -1,4 +1,4 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-2#exercise-14)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/running-and-stopping-containers#33cdf131-c5f8-4b22-85ef-7ba47e0f1bdc)
 
 > **EXERCISE 1.4: MISSING DEPENDENCIES**
 > 
@@ -6,28 +6,31 @@
 > 
 > If you're on Windows, you'll want to switch the `'` and `"` around: `sh -c "while true; do echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://$website; done"`.
 > 
-> You will notice that a few things required for proper execution are missing. Be sure to remind yourself which flags to use so that the container actually waits for input.
+> The small script uses the command line tool [curl](https://curl.se/) to load url of a website and prints that to screen. If you try the script, it does not work:
+>
+>     Input website:
+>     helsinki.fi
+>     Searching..
+>     sh: 1: curl: not found
+>
+> Your task is to fix the error by installing curl inside the container.
 > 
-> Note also that curl is NOT installed in the container yet. You will have to install it from inside of the container.
+> You are done with the exercise when the response looks something like this:
 > 
-> Test inputting `helsinki.fi` into the application. It should respond with something like
-> 
+>     Input website:
+>     helsinki.fi
+>     Searching..
 >     <html>
->     <head>
->         <title>301 Moved Permanently</title>
->     </head>
-> 
+>     <head><title>301 Moved Permanently</title></head>
 >     <body>
->         <h1>Moved Permanently</h1>
->         <p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+>         <center><h1>Moved Permanently</h1></center>
+>         <hr><center>nginx/1.24.0</center>
 >     </body>
 >     </html>
 > 
-> This time return the command you used to start process and the command(s) you used to fix the ensuing problems.
+> **Hint** for installing the missing dependencies you could start a new process with `docker exec`. And remember: google is your friend on using Ubuntu.
 > 
-> **Hint** for installing the missing dependencies you could start a new process with `docker exec`.
-> 
-> - This exercise has multiple solutions, if the curl for helsinki.fi works then it's done. Can you figure out other (smart) solutions?
+> As the answer, write the command you used to start the process and the command(s) you used to fix the ensuing problems.
 
 
 ## Solution
