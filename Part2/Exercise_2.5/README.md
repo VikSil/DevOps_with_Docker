@@ -1,6 +1,6 @@
-## [Assignment](https://devopswithdocker.com/part-2/section-2#exercises-25)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-3/docker-networking#c3918908-8f8e-4210-ac23-495374347ae4)
 
-> **EXERCISE 2.5**
+> **EXERCISE 2.5: SCALE**
 > 
 > The project https://github.com/docker-hy/material-applications/tree/main/scaling-exercise is a barely working application. Go ahead and clone it for yourself. The project already includes docker-compose.yml so you can start it by running `docker compose up`.
 > 
@@ -8,7 +8,7 @@
 > 
 > This exercise was created with [Sasu Mäkinen](https://github.com/sasumaki)
 > 
-> Please return the used commands for this exercise.
+> Submit the used commands for the answer.
 
 ## Solution
 

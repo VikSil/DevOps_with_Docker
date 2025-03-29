@@ -1,8 +1,8 @@
-## [Assignment](https://devopswithdocker.com/part-2/section-1#exercise-21)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-3/migrating-to-docker-compose#209609c5-4fd4-4174-a34d-084e1263aa3e)
 
-> **EXERCISE 2.1**
+> **EXERCISE 2.1: SIMPLE SERVICE WRITING TO LOG**
 > 
-> Let us now leverage the Docker Compose with the simple webservice that we used in the [Exercise 1.3](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part1/Exercise_1.3)
+> Let us now leverage the Docker Compose with the simple webservice that we used in the [Exercise 1.3](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-2/running-and-stopping-containers#4b132769-24bb-4523-b620-1f355fb69a18)
 > 
 > Without a command `devopsdockeruh/simple-web-service` will create logs into its `/usr/src/app/text.log`.
 > 

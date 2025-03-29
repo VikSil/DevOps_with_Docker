@@ -1,8 +1,8 @@
-## [Assignment](https://devopswithdocker.com/part-1/section-1#exercises-11-12)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-3/volumes-in-action#0117ad93-2b94-48c6-a399-120188ef9019)
 
-> **EXERCISE 2.10**
+> **EXERCISE 2.10: CLOSE THE PORTS**
 > 
-> Now we have the reverse proxy up and running! All the communication to our app should be done through the reverse proxy and direct access (eg. accessing the backend with a GET to http://localhost:8080/ping ) should be prevented.
+> Now we have the reverse proxy up and running! All the communication to our app should be done through the reverse proxy and direct access (eg. accessing the backend with a GET to http://localhost:8080/ping) should be prevented.
 > 
 > Use a port scanner, eg https://hub.docker.com/r/networkstatic/nmap to ensure that there are no extra ports open in the host.
 > 
@@ -42,6 +42,8 @@
 >     111/tcp open     rpcbind
 > 
 >     Nmap done: 1 IP address (1 host up) scanned in 1.28 seconds
+>
+> As the answer, submit the version of docker-compose.yml that does not expose any ports.
 
 ## Solution
 
@@ -78,10 +80,6 @@
         volumes:
         - ./volumes/database:/var/lib/postgresql/data
 
-    adminer:
-        image: adminer
-        restart: always
-
     web:
         image: nginx
         volumes:
@@ -105,9 +103,5 @@
             proxy_set_header Host $host;
             proxy_pass http://backend:8080/;
         }
-
-        location /adminer/ {
-            proxy_pass http://adminer:8080/;
-            }
-        }
+      }
     }

@@ -1,8 +1,8 @@
-## [Assignment](https://devopswithdocker.com/part-2/section-3#exercises-26---210)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-3/volumes-in-action#33527278-b27f-415e-8488-91fa1bd8e108)
 
-> **EXERCISE 2.6**
+> **EXERCISE 2.6: POSTGRES**
 > 
-> Let us continue with the example app that we worked with in [Exercise 2.4](https://github.com/VikSil/DevOps_with_Docker/blob/trunk/Part2/Exercise_2.4).
+> Let us continue with the example app that we worked with in [Exercise 2.4](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-3/docker-networking#6ecbbdea-a420-4429-a2ac-9a88eed8c9db).
 > 
 > Now you should add a database to the example backend.
 > 
@@ -10,15 +10,16 @@
 > 
 > The backend [README](https://github.com/docker-hy/material-applications/tree/main/example-backend) should have all the information needed to connect.
 > 
+> ![Backend, frontend, redis and a database](https://courses.mooc.fi/api/v0/files/course/03317330-6e94-44b0-a138-603dd2a54c0b/images/6kYExz1oAGBXUfpMjEutwRCTWqPyxa.png)
+>
 > There is again a button (and a form!) in the frontend that you can use to ensure your configuration is done right.
-> 
-> Submit the docker-compose.yml
 > 
 > TIPS:
 > 
 > - When configuring the database, you might need to destroy the automatically created volumes. Use commands `docker volume prune`, `docker volume ls` and `docker volume rm` to remove unused volumes when testing. Make sure to remove containers that depend on them beforehand.
 > - `restart: unless-stopped` can help if the Postgres takes a while to get ready
-> ![Backend, frontend, redis and a database](https://devopswithdocker.com/assets/images/back-front-redis-and-database-5aaf7f70f4e7f9f0873e2be9710ea5e6.png)
+> 
+> Submit the docker-compose.yml as your answer.
 
 ## Solution
 

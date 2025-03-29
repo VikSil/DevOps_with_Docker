@@ -1,6 +1,6 @@
-## [Assignment](https://devopswithdocker.com/part-2/section-3#exercises-26---210)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-3/volumes-in-action#6c983c9a-4ee7-4c22-8ef3-fc354e20b687)
 
-> **EXERCISE 2.7**
+> **EXERCISE 2.7: BIND MOUNT**
 > 
 > Postgres image uses a volume by default. Define manually a volume for the database in a convenient location such as in `./database` so you should use now a [bind mount](https://docs.docker.com/engine/storage/bind-mounts/). The image [documentation](https://github.com/docker-library/docs/blob/master/postgres/README.md#where-to-store-data) may help you with the task.
 > 
@@ -11,11 +11,11 @@
 > - Run `docker compose up` and see that the messages are available after refreshing browser
 > - Run `docker compose down` and delete the volume folder manually
 > - Run `docker compose up` and the data should be gone
+>
 > TIP: To save you the trouble of testing all of those steps, just look into the folder before trying the steps. If it's empty after `docker compose up` then something is wrong.
 > 
-> Submit the docker-compose.yml
-> 
-> The benefit of a bind mount is that since you know exactly where the data is in your file system, it is easy to create backups. If the Docker managed volumes are used, the location of the data in the file system can not be controlled and that makes backups a bit less trivial...
+> Submit the docker-compose.yml as answer
+
 
 ## Solution
 
