@@ -5,6 +5,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -o /go/bin/pong
+RUN apk update && apk add upx && upx --brute /go/bin/pong && apk del -r upx
 
 
 FROM scratch
@@ -12,6 +13,6 @@ FROM scratch
 COPY --from=builder /go/bin/pong /go/bin/pong
 
 EXPOSE 8080
-ENV REQUEST_ORIGIN=http://localhost:8080
+ENV REQUEST_ORIGIN=http://localhost
 
 ENTRYPOINT ["/go/bin/pong"]
