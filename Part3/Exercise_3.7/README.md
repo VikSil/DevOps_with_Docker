@@ -1,6 +1,6 @@
-## [Assignment](https://devopswithdocker.com/part-3/section-4#exercise-37)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-4/optimizing-the-image-size#40aab5a1-f4e2-4f89-aed8-7c5efdc489ff)
 
-> **EXERCISE 3.7**
+> **EXERCISE 3.7: PROJECT WITH PREINSTALLED ENVIRONMENTS**
 > 
 > As you may have guessed, you shall now return to the frontend and backend from the previous exercise.
 > 

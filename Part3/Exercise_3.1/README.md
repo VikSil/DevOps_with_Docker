@@ -1,4 +1,4 @@
-## [Assignment](https://devopswithdocker.com/part-3/section-2#exercises-31-34)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-4/deployment-pipelines#c7cd071d-f7c3-47cf-bf5f-03524a04d1c6)
 
 > **EXERCISE 3.1: YOUR PIPELINE**
 > 
@@ -21,18 +21,17 @@
 >         steps:
 >         # ...
 > 
-> The earlier example still uses the old GitHub naming convention and calls the main branch *master*.
-> 
 > Some of the actions that the above example uses are a bit outdated, so go through the documentation
 > 
 > - [actions/checkout](https://github.com/actions/checkout)
 > - [docker/login-action](https://github.com/docker/login-action)
 > - [docker/build-push-action](https://github.com/docker/)
+>
 > and use the most recent versions in your workflow.
 > 
 > Keep an eye on the GitHub Actions page to see that your workflow is working:
 > 
-> ![Github Actions page](https://devopswithdocker.com/assets/images/gha-1a47a29ab8329eece9c71501422d01df.png)
+> ![Github Actions page](https://courses.mooc.fi/api/v0/files/course/03317330-6e94-44b0-a138-603dd2a54c0b/images/qClZK1OFVl3Cfu14NgOFnvzTqdra7s.png)
 > 
 > Ensure also from Docker Hub that your image gets pushed there.
 > 
@@ -40,19 +39,16 @@
 > 
 > Now set up and run the [Watchtower](https://github.com/containrrr/watchtower) just as described above.
 > 
-> You might do these two in a single step in a shared Docker Compose file.
-> 
 > Now your deployment pipeline is set up! Ensure that it works:
 > 
 > - make a change to your code
-> 
 > - commit and push the changes to GitHub
-> 
 > - wait for some time (the time it takes for GitHub Action to build and push the image plus the Watchtower poll interval)
-> 
 > - reload the browser to ensure that Watchtower has started the new version (that is, your changes are visible)
 > 
-> Submit a link to the repository with the config.
+> Extend the docker-compose.yaml to start up both the Watchtower and the Express app.
+>
+> Submit a link to the repository with the configuration.
 
 ## Solution
 

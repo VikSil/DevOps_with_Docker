@@ -1,10 +1,10 @@
-## [Assignment](https://devopswithdocker.com/part-3/section-4#exercises-38---310)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-4/optimizing-the-image-size#bb0f2fd6-df4a-4887-87c0-9fc97df08a23)
 
-> **EXERCISE 3.10**
+> **EXERCISE 3.10: OPTIMAL SIZED IMAGE**
 > 
 > Do all or most of the optimizations from security to size for **one** other Dockerfile you have access to, in your own project or for example the ones used in previous "standalone" exercises.
 > 
-> Please document Dockerfiles both before and after.
+> As answer to the exercise, give the Dockerfile before and after the changes.
 
 ## Solution
 

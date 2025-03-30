@@ -1,12 +1,12 @@
-## [Assignment](https://devopswithdocker.com/part-3/section-4#exercise-36)
+## [Assignment](https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker/chapter-4/optimizing-the-image-size#8747e05d-2d5d-4997-8e19-8e0e708925db)
 
-> **EXERCISE 3.6**
+> **EXERCISE 3.6: OPTIMIZED PROJECT IMAGES**
 > 
 > Return now back to our [frontend](https://github.com/docker-hy/material-applications/tree/main/example-frontend) and [backend](https://github.com/docker-hy/material-applications/tree/main/example-backend) Dockerfile.
 > 
 > Document both image sizes at this point, as was done in the material. Optimize the Dockerfiles of both app frontend and backend, by joining the RUN commands and removing useless parts.
 > 
-> After your improvements document the image sizes again.
+> After your improvements document the image sizes again. Submit also your Dockerfiles as the answer.
 
 ## Solution
 
@@ -46,15 +46,18 @@
     COPY . .
 
     ENV PORT=8080
-    ENV REQUEST_ORIGIN=http://localhost:8080
+    ENV REQUEST_ORIGIN=http://localhost
 
-    RUN addgroup -S backend && adduser -S backend -G backend && chown -R backend:backend .
+
+    RUN go build && find . -type f ! -name 'server' -delete && \
+        apk update && apk add upx && upx --brute server && apk del -r upx && \
+        rm -rf /var/cache/apk/* && \
+        addgroup -S backend && adduser -S backend -G backend && chown -R backend:backend . && \
+        rm -rf cache -f && rm -rf common && \
+        rm -rf controller && rm -rf pgconnection && rm -rf router && \
+        rm -rf /var/lib/apt/lists/* 
+
     USER backend
-
-    RUN go build && rm -rf /var/cache/apk/* && \
-        rm -rf cache -f && rm -rf common && rm -rf controller && \
-        rm -rf pgconnection && rm -rf router && \
-        find . -type f ! -name 'server' -delete 
 
     CMD ["./server"]
 
