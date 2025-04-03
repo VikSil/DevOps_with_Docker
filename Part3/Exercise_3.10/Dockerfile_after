@@ -1,4 +1,4 @@
-FROM python:3.12.7-slim as builder
+FROM python:3.11.5 as builder
 
 WORKDIR /wombo_clicker
 
@@ -12,21 +12,18 @@ RUN pip install --user --upgrade pip --no-cache-dir && \
 
 
 
-FROM python:3.12.7-slim-bullseye
+FROM python:3.11.5-slim-bullseye
+
+COPY . /wombo_clicker
+COPY --from=builder /home/builduser/.local /home/clicker/.local
 
 RUN apt-get update && apt-get install -y wget unzip && \
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
     apt install -y ./google-chrome-stable_current_amd64.deb && \
     rm google-chrome-stable_current_amd64.deb && \
-    apt-get clean
-
-COPY . /wombo_clicker
-
-RUN useradd -m clicker && chown -R clicker:clicker /wombo_clicker 
-    
-COPY --from=builder /home/builduser/.local /home/clicker/.local
-
-RUN chown -R clicker:clicker /home/clicker
+    apt-get clean && \
+    useradd -m clicker && chown -R clicker:clicker /wombo_clicker && \
+    chown -R clicker:clicker /home/clicker
 
 ENV PATH=/home/clicker/.local:$PATH
 
